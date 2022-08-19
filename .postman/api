@@ -4,7 +4,8 @@ id = 20f3195c-4944-4594-a620-20fb31f7be17
 
 [relations.collections]
 rootDirectory = postman/collections
-files[] = {"id":"b44bb641-2aa1-435a-b4eb-1b0c5de3e55b","path":"New Collection_889210-b44bb641-2aa1-435a-b4eb-1b0c5de3e55b.json","metaData":{}}
+files[] = {"id":"c67bc93d-3936-46a0-93b3-419349925bec","path":"Gen_889210-c67bc93d-3936-46a0-93b3-419349925bec.json","metaData":{}}
+files[] = {"id":"2256ccea-904d-49cb-b76d-2f027dd99e7e","path":"Reference Collection 1 to the API_889210-2256ccea-904d-49cb-b76d-2f027dd99e7e.json","metaData":{}}
 
 [relations.collections.metaData]
 
@@ -13,3 +14,4 @@ rootDirectory = postman/schemas
 files[] = {"path":"index.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
+type = openapi:3
