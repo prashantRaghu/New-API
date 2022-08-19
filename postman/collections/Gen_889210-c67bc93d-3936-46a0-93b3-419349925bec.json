@@ -1,11 +1,9 @@
 {
 	"info": {
 		"_postman_id": "c67bc93d-3936-46a0-93b3-419345325bec",
-		"name": "Reference",
+		"name": "Reference 2",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"description": {
-			"content": "",
-			"type": "text/plain"
-		}
-	}
+		"_uid": "889210-c67bc93d-3936-46a0-93b3-419345325bec"
+	},
+	"item": []
 }
