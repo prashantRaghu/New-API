@@ -1,0 +1,333 @@
+{
+	"item": [
+		{
+			"id": "bc24cec0-e408-4ca8-be9d-fad4407580af",
+			"name": "Sample endpoint: Returns ",
+			"request": {
+				"name": "Sample endpoint: Returns ",
+				"description": {},
+				"url": {
+					"path": [
+						"user"
+					],
+					"host": [
+						"{{baseUrl}}"
+					],
+					"query": [
+						{
+							"disabled": false,
+							"key": "id",
+							"value": "-78546200",
+							"description": "(Required) ID of the user"
+						}
+					],
+					"variable": []
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"method": "GET",
+				"auth": null
+			},
+			"response": [
+				{
+					"id": "bbc43f07-b5c5-43f0-8ab7-d2bfc1a5a5f3",
+					"name": "Sample response: Details about a user by ID",
+					"originalRequest": {
+						"url": {
+							"path": [
+								"user"
+							],
+							"host": [
+								"{{baseUrl}}"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "-78546200"
+								}
+							],
+							"variable": []
+						},
+						"header": [
+							{
+								"description": {
+									"content": "Added as a part of security scheme: basic",
+									"type": "text/plain"
+								},
+								"key": "Authorization",
+								"value": "Basic <credentials>"
+							}
+						],
+						"method": "GET",
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"header": [
+						{
+							"disabled": false,
+							"description": "A link to the next page of responses",
+							"key": "x-next",
+							"value": "in non sed Lorem nulla"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"body": "{\n  \"id\": -26698863,\n  \"name\": \"sunt velit eiusmod\",\n  \"tag\": \"esse velit\"\n}",
+					"cookie": [],
+					"_postman_previewlanguage": "json"
+				},
+				{
+					"id": "34a61340-7f44-441e-906b-55bbab881747",
+					"name": "Unexpected error",
+					"originalRequest": {
+						"url": {
+							"path": [
+								"user"
+							],
+							"host": [
+								"{{baseUrl}}"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "-78546200"
+								}
+							],
+							"variable": []
+						},
+						"header": [
+							{
+								"description": {
+									"content": "Added as a part of security scheme: basic",
+									"type": "text/plain"
+								},
+								"key": "Authorization",
+								"value": "Basic <credentials>"
+							}
+						],
+						"method": "GET",
+						"body": {}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"body": "{\n  \"code\": 1318473,\n  \"message\": \"ullamco\"\n}",
+					"cookie": [],
+					"_postman_previewlanguage": "json"
+				}
+			],
+			"event": [],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			}
+		}
+	],
+	"event": [],
+	"variable": [
+		{
+			"type": "string",
+			"value": ":3",
+			"key": "baseUrl"
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "username",
+				"value": "<Basic Auth Username>"
+			},
+			{
+				"key": "password",
+				"value": "<Basic Auth Password>"
+			}
+		]
+	},
+	"info": {
+		"_postman_id": "17d40c92-4451-41c4-ab86-2391fe6610ce",
+		"name": "Reference collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"description": {
+			"content": "",
+			"type": "text/plain"
+		}
+	}
+}{
+	"item": [
+		{
+			"id": "bc24cec0-e408-4ca8-be9d-fad4407580af",
+			"name": "Sample endpoint: Returns ",
+			"request": {
+				"name": "Sample endpoint: Returns ",
+				"description": {},
+				"url": {
+					"path": [
+						"user"
+					],
+					"host": [
+						"{{baseUrl}}"
+					],
+					"query": [
+						{
+							"disabled": false,
+							"key": "id",
+							"value": "-78546200",
+							"description": "(Required) ID of the user"
+						}
+					],
+					"variable": []
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"method": "GET",
+				"auth": null
+			},
+			"response": [
+				{
+					"id": "bbc43f07-b5c5-43f0-8ab7-d2bfc1a5a5f3",
+					"name": "Sample response: Details about a user by ID",
+					"originalRequest": {
+						"url": {
+							"path": [
+								"user"
+							],
+							"host": [
+								"{{baseUrl}}"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "-78546200"
+								}
+							],
+							"variable": []
+						},
+						"header": [
+							{
+								"description": {
+									"content": "Added as a part of security scheme: basic",
+									"type": "text/plain"
+								},
+								"key": "Authorization",
+								"value": "Basic <credentials>"
+							}
+						],
+						"method": "GET",
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"header": [
+						{
+							"disabled": false,
+							"description": "A link to the next page of responses",
+							"key": "x-next",
+							"value": "in non sed Lorem nulla"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"body": "{\n  \"id\": -26698863,\n  \"name\": \"sunt velit eiusmod\",\n  \"tag\": \"esse velit\"\n}",
+					"cookie": [],
+					"_postman_previewlanguage": "json"
+				},
+				{
+					"id": "34a61340-7f44-441e-906b-55bbab881747",
+					"name": "Unexpected error",
+					"originalRequest": {
+						"url": {
+							"path": [
+								"user"
+							],
+							"host": [
+								"{{baseUrl}}"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "-78546200"
+								}
+							],
+							"variable": []
+						},
+						"header": [
+							{
+								"description": {
+									"content": "Added as a part of security scheme: basic",
+									"type": "text/plain"
+								},
+								"key": "Authorization",
+								"value": "Basic <credentials>"
+							}
+						],
+						"method": "GET",
+						"body": {}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"body": "{\n  \"code\": 1318473,\n  \"message\": \"ullamco\"\n}",
+					"cookie": [],
+					"_postman_previewlanguage": "json"
+				}
+			],
+			"event": [],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			}
+		}
+	],
+	"event": [],
+	"variable": [
+		{
+			"type": "string",
+			"value": ":3",
+			"key": "baseUrl"
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "username",
+				"value": "<Basic Auth Username>"
+			},
+			{
+				"key": "password",
+				"value": "<Basic Auth Password>"
+			}
+		]
+	},
+	"info": {
+		"_postman_id": "17d40c92-4451-41c4-ab86-2391fe6610ce",
+		"name": "Reference collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"description": {
+			"content": "",
+			"type": "text/plain"
+		}
+	}
+}
