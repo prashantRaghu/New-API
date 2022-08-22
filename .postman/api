@@ -1,23 +1,18 @@
-id = 20f3195c-4944-4594-a620-20fb31f7be17
+id = c0512c96-5f55-4cc7-aeba-85da36d531cd
 
 [relations]
 
 [relations.collections]
 rootDirectory = postman/collections
+files[] = {"id":"c67bc93d-3936-46a0-93b3-419345325bec","path":"Gen_889210-c67bc93d-3936-46a0-93b3-419349925bec.json","metaData":{}}
 
 [relations.collections.metaData]
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"root.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = openapi:3
 rootDirectory = postman/schemas
 files[] = {"path":"index.yaml","metaData":{}}
-
-
-[relations.apiDefinition.metaData]
-type = openapi:3
-rootDirectory = postman/schemas
 files[] = {"path":"index.yaml","metaData":{}}
